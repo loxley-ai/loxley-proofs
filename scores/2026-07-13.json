@@ -129,9 +129,15 @@
   "miss": 0,
   "wrong_way": 3
  },
+ "rel_summary": {
+  "total": 9,
+  "hit": 8,
+  "wrong_way": 0,
+  "miss": 1
+ },
  "wallet_summary": {
   "graded_trades": 336,
   "unique_wallets": 85
  },
- "note": "per-wallet grades are queryable at loxleyai.xyz (The Examination). raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. rel_summary for this day was computed after publication from the sealed inputs in seals/, which is why it can be checked. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
 }
