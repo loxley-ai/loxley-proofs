@@ -1,0 +1,86 @@
+{
+ "day": "2026-07-15",
+ "committed_at": "2026-07-15T16:52:02+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-15.json.",
+ "calls": [
+  {
+   "sym": "SNDK",
+   "night_premium": -13.033,
+   "call": "down",
+   "prev_close": 1757.8199462890625
+  },
+  {
+   "sym": "ORCL",
+   "night_premium": 9.739,
+   "call": "up",
+   "prev_close": 127.94000244140625
+  },
+  {
+   "sym": "CRWV",
+   "night_premium": 8.919,
+   "call": "up",
+   "prev_close": 79.94000244140625
+  },
+  {
+   "sym": "TSLA",
+   "night_premium": 5.126,
+   "call": "up",
+   "prev_close": 396.17999267578125
+  },
+  {
+   "sym": "CRCL",
+   "night_premium": 3.274,
+   "call": "up",
+   "prev_close": 63.220001220703125
+  },
+  {
+   "sym": "AMZN",
+   "night_premium": 2.958,
+   "call": "up",
+   "prev_close": 247.49000549316406
+  },
+  {
+   "sym": "COIN",
+   "night_premium": -2.601,
+   "call": "down",
+   "prev_close": 161.5
+  },
+  {
+   "sym": "AAPL",
+   "night_premium": 2.525,
+   "call": "up",
+   "prev_close": 314.8599853515625
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium": 2.503,
+   "call": "up",
+   "prev_close": 359.510009765625
+  },
+  {
+   "sym": "META",
+   "night_premium": 2.059,
+   "call": "up",
+   "prev_close": 661.0399780273438
+  },
+  {
+   "sym": "MU",
+   "night_premium": -1.741,
+   "call": "down",
+   "prev_close": 983.1199951171875
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": 1.569,
+   "call": "up",
+   "prev_close": 136.0800018310547
+  },
+  {
+   "sym": "INTC",
+   "night_premium": -0.789,
+   "call": "down",
+   "prev_close": 107.76000213623047
+  }
+ ]
+}
