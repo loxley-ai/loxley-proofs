@@ -1,0 +1,103 @@
+{
+ "day": "2026-07-15",
+ "scored_at": "2026-07-15T13:40:13+00:00",
+ "calls": [
+  {
+   "sym": "AMD",
+   "night_premium_med": 7.386,
+   "open_move_pct": 4.048,
+   "prev_close": 534.3900146484375,
+   "open": 556.02001953125,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium_med": 1.884,
+   "open_move_pct": 1.6,
+   "prev_close": 352.510009765625,
+   "open": 358.1499938964844,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MSFT",
+   "night_premium_med": -2.491,
+   "open_move_pct": -0.816,
+   "prev_close": 390.989990234375,
+   "open": 387.79998779296875,
+   "snapshots": 97,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MU",
+   "night_premium_med": 4.347,
+   "open_move_pct": 4.141,
+   "prev_close": 937,
+   "open": 975.8049926757812,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "NVDA",
+   "night_premium_med": 1.225,
+   "open_move_pct": 4.166,
+   "prev_close": 203.52999877929688,
+   "open": 212.00999450683594,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SPCX",
+   "night_premium_med": 2.087,
+   "open_move_pct": 1.047,
+   "prev_close": 136.0800018310547,
+   "open": 137.5050048828125,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SPY",
+   "night_premium_med": 0.923,
+   "open_move_pct": 0.232,
+   "prev_close": 749.1699829101562,
+   "open": 750.9099731445312,
+   "snapshots": 99,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "TSLA",
+   "night_premium_med": 4.742,
+   "open_move_pct": 1.174,
+   "prev_close": 394.760009765625,
+   "open": 399.3949890136719,
+   "snapshots": 99,
+   "verdict": "HIT",
+   "earnings": null
+  }
+ ],
+ "call_summary": {
+  "total": 8,
+  "hit": 7,
+  "miss": 1,
+  "wrong_way": 0
+ },
+ "rel_summary": {
+  "total": 7,
+  "hit": 6,
+  "miss": 1,
+  "wrong_way": 0
+ },
+ "wallet_summary": {
+  "graded_trades": 888,
+  "unique_wallets": 252
+ },
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+}
