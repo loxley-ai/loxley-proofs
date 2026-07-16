@@ -5,12 +5,6 @@
  "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-16.json.",
  "calls": [
   {
-   "sym": "SNDK",
-   "night_premium": 333.795,
-   "call": "up",
-   "prev_close": 1615
-  },
-  {
    "sym": "CRWV",
    "night_premium": 12.902,
    "call": "up",
@@ -94,5 +88,6 @@
    "call": "up",
    "prev_close": 370.9200134277344
   }
- ]
+ ],
+ "note": "Amended 13:5x UTC, before the open was graded: SNDK removed. Its +333.8% premium came from a fallback aggregate rate during a DexScreener outage, with no pool-grade print behind it. A guard now excludes fallback-only readings beyond +/-30% at forecast time. The original file remains in git history."
 }
