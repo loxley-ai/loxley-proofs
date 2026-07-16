@@ -1,0 +1,463 @@
+{
+ "day": "2026-07-16",
+ "scored_at": "2026-07-16T13:40:28+00:00",
+ "calls": [
+  {
+   "sym": "AAOI",
+   "night_premium_med": 11.88,
+   "open_move_pct": -3.703,
+   "prev_close": 109.08999633789062,
+   "open": 105.05000305175781,
+   "snapshots": 63,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "AAPL",
+   "night_premium_med": 2.308,
+   "open_move_pct": 0.154,
+   "prev_close": 327.5,
+   "open": 328.0050048828125,
+   "snapshots": 59,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "AMD",
+   "night_premium_med": 1.111,
+   "open_move_pct": -3.744,
+   "prev_close": 529.1400146484375,
+   "open": 509.3299865722656,
+   "snapshots": 52,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "AMZN",
+   "night_premium_med": 0.796,
+   "open_move_pct": 0.167,
+   "prev_close": 254.9600067138672,
+   "open": 255.38499450683594,
+   "snapshots": 49,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "AVGO",
+   "night_premium_med": -3.16,
+   "open_move_pct": -2.472,
+   "prev_close": 394.2799987792969,
+   "open": 384.5350036621094,
+   "snapshots": 48,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "BABA",
+   "night_premium_med": -4.104,
+   "open_move_pct": -0.246,
+   "prev_close": 117.69000244140625,
+   "open": 117.4000015258789,
+   "snapshots": 46,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "COIN",
+   "night_premium_med": -5.927,
+   "open_move_pct": -1.035,
+   "prev_close": 167.2100067138672,
+   "open": 165.47999572753906,
+   "snapshots": 41,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "CRWV",
+   "night_premium_med": 12.902,
+   "open_move_pct": -2.269,
+   "prev_close": 77.12000274658203,
+   "open": 75.37000274658203,
+   "snapshots": 37,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "DELL",
+   "night_premium_med": -3.804,
+   "open_move_pct": 11.332,
+   "prev_close": 412.67999267578125,
+   "open": 459.44500732421875,
+   "snapshots": 35,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "EWY",
+   "night_premium_med": 6.17,
+   "open_move_pct": 2.4,
+   "prev_close": 171.63999938964844,
+   "open": 175.75999450683594,
+   "snapshots": 31,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "GLW",
+   "night_premium_med": 15.36,
+   "open_move_pct": 6.989,
+   "prev_close": 174.41000366210938,
+   "open": 186.60000610351562,
+   "snapshots": 32,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "GME",
+   "night_premium_med": -5.795,
+   "open_move_pct": 1.033,
+   "prev_close": 22.260000228881836,
+   "open": 22.489999771118164,
+   "snapshots": 30,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium_med": 0.989,
+   "open_move_pct": 0.613,
+   "prev_close": 370.9200134277344,
+   "open": 373.19500732421875,
+   "snapshots": 29,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "INTC",
+   "night_premium_med": 3.806,
+   "open_move_pct": -1.806,
+   "prev_close": 102.98999786376953,
+   "open": 101.12999725341797,
+   "snapshots": 27,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "IONQ",
+   "night_premium_med": 24.847,
+   "open_move_pct": 6.638,
+   "prev_close": 37.5099983215332,
+   "open": 40,
+   "snapshots": 25,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "IREN",
+   "night_premium_med": 15.23,
+   "open_move_pct": -3.168,
+   "prev_close": 38.279998779296875,
+   "open": 37.06719970703125,
+   "snapshots": 23,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "LITE",
+   "night_premium_med": 4.411,
+   "open_move_pct": -2.794,
+   "prev_close": 752,
+   "open": 730.989990234375,
+   "snapshots": 24,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "LLY",
+   "night_premium_med": -4.972,
+   "open_move_pct": -0.962,
+   "prev_close": 1156.6300048828125,
+   "open": 1145.5,
+   "snapshots": 24,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MRVL",
+   "night_premium_med": 2.827,
+   "open_move_pct": -2.982,
+   "prev_close": 206.25999450683594,
+   "open": 200.11000061035156,
+   "snapshots": 20,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "MSFT",
+   "night_premium_med": 1.218,
+   "open_move_pct": 0.619,
+   "prev_close": 395.6300048828125,
+   "open": 398.0799865722656,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MSTR",
+   "night_premium_med": -5.284,
+   "open_move_pct": -1.631,
+   "prev_close": 97.47000122070312,
+   "open": 95.87999725341797,
+   "snapshots": 17,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MU",
+   "night_premium_med": 6.87,
+   "open_move_pct": -4.192,
+   "prev_close": 904.280029296875,
+   "open": 866.375,
+   "snapshots": 16,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "NBIS",
+   "night_premium_med": 5.233,
+   "open_move_pct": -4.521,
+   "prev_close": 199.50999450683594,
+   "open": 190.49000549316406,
+   "snapshots": 15,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "NFLX",
+   "night_premium_med": -3.637,
+   "open_move_pct": 0.394,
+   "prev_close": 73.68000030517578,
+   "open": 73.97000122070312,
+   "snapshots": 14,
+   "verdict": "WRONG_WAY",
+   "earnings": "pre"
+  },
+  {
+   "sym": "NVDA",
+   "night_premium_med": -1.995,
+   "open_move_pct": -1.052,
+   "prev_close": 212.5,
+   "open": 210.26499938964844,
+   "snapshots": 13,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "NVTS",
+   "night_premium_med": 21.854,
+   "open_move_pct": -4.657,
+   "prev_close": 13.270000457763672,
+   "open": 12.652000427246094,
+   "snapshots": 12,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "ORCL",
+   "night_premium_med": 5.97,
+   "open_move_pct": -1.457,
+   "prev_close": 132.49000549316406,
+   "open": 130.55999755859375,
+   "snapshots": 12,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "PLTR",
+   "night_premium_med": -3.215,
+   "open_move_pct": -0.359,
+   "prev_close": 133.75999450683594,
+   "open": 133.27999877929688,
+   "snapshots": 11,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "POET",
+   "night_premium_med": 11.729,
+   "open_move_pct": -4.051,
+   "prev_close": 8.270000457763672,
+   "open": 7.934999942779541,
+   "snapshots": 11,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "QBTS",
+   "night_premium_med": 11.44,
+   "open_move_pct": 4.187,
+   "prev_close": 18.270000457763672,
+   "open": 19.03499984741211,
+   "snapshots": 8,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "QCOM",
+   "night_premium_med": 6.45,
+   "open_move_pct": -2.501,
+   "prev_close": 177.97999572753906,
+   "open": 173.5279998779297,
+   "snapshots": 8,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "QUBT",
+   "night_premium_med": 6.343,
+   "open_move_pct": -1.119,
+   "prev_close": 8.039999961853027,
+   "open": 7.949999809265137,
+   "snapshots": 7,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "RGTI",
+   "night_premium_med": 10.623,
+   "open_move_pct": -2.951,
+   "prev_close": 15.25,
+   "open": 14.800000190734863,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "SLV",
+   "night_premium_med": -2.432,
+   "open_move_pct": 0.958,
+   "prev_close": 52.209999084472656,
+   "open": 52.709999084472656,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "SMCI",
+   "night_premium_med": 10.152,
+   "open_move_pct": -1.376,
+   "prev_close": 26.889999389648438,
+   "open": 26.520000457763672,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "SNDK",
+   "night_premium_med": 333.795,
+   "open_move_pct": -5.419,
+   "prev_close": 1615,
+   "open": 1527.489990234375,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "SOFI",
+   "night_premium_med": -5.764,
+   "open_move_pct": -0.644,
+   "prev_close": 17.8700008392334,
+   "open": 17.7549991607666,
+   "snapshots": 6,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SOXX",
+   "night_premium_med": 1.691,
+   "open_move_pct": -2.903,
+   "prev_close": 555.27001953125,
+   "open": 539.1500244140625,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "SPCX",
+   "night_premium_med": 1.656,
+   "open_move_pct": -0.24,
+   "prev_close": 135.27000427246094,
+   "open": 134.94500732421875,
+   "snapshots": 6,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "SPY",
+   "night_premium_med": -1.045,
+   "open_move_pct": -0.076,
+   "prev_close": 754.8099975585938,
+   "open": 754.239990234375,
+   "snapshots": 6,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "TSEM",
+   "night_premium_med": -2.331,
+   "open_move_pct": -3.984,
+   "prev_close": 251,
+   "open": 241,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "TSM",
+   "night_premium_med": -2.548,
+   "open_move_pct": 1.495,
+   "prev_close": 419.4800109863281,
+   "open": 425.75,
+   "snapshots": 3,
+   "verdict": "WRONG_WAY",
+   "earnings": "pre"
+  },
+  {
+   "sym": "USAR",
+   "night_premium_med": 4.968,
+   "open_move_pct": -2.946,
+   "prev_close": 17.309999465942383,
+   "open": 16.799999237060547,
+   "snapshots": 3,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "USO",
+   "night_premium_med": -7.703,
+   "open_move_pct": 0.058,
+   "prev_close": 121.37999725341797,
+   "open": 121.44999694824219,
+   "snapshots": 3,
+   "verdict": "MISS",
+   "earnings": null
+  }
+ ],
+ "call_summary": {
+  "total": 44,
+  "hit": 14,
+  "miss": 6,
+  "wrong_way": 24
+ },
+ "rel_summary": {
+  "total": 45,
+  "hit": 14,
+  "miss": 5,
+  "wrong_way": 26
+ },
+ "wallet_summary": {
+  "graded_trades": 8,
+  "unique_wallets": 7
+ },
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+}
