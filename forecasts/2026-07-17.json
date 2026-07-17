@@ -1,0 +1,92 @@
+{
+ "day": "2026-07-17",
+ "committed_at": "2026-07-17T13:01:00+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-17.json.",
+ "calls": [
+  {
+   "sym": "CRWV",
+   "night_premium": 19.421,
+   "call": "up",
+   "prev_close": 72.91000366210938
+  },
+  {
+   "sym": "USAR",
+   "night_premium": 14.205,
+   "call": "up",
+   "prev_close": 15.90999984741211
+  },
+  {
+   "sym": "INTC",
+   "night_premium": 10.239,
+   "call": "up",
+   "prev_close": 96.9800033569336
+  },
+  {
+   "sym": "CRCL",
+   "night_premium": 7.668,
+   "call": "up",
+   "prev_close": 60.63999938964844
+  },
+  {
+   "sym": "ORCL",
+   "night_premium": -5.458,
+   "call": "down",
+   "prev_close": 124.20999908447266
+  },
+  {
+   "sym": "PLTR",
+   "night_premium": -4.731,
+   "call": "down",
+   "prev_close": 134.44000244140625
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": -4.157,
+   "call": "down",
+   "prev_close": 131.11000061035156
+  },
+  {
+   "sym": "SNDK",
+   "night_premium": 3.653,
+   "call": "up",
+   "prev_close": 1411.0799560546875
+  },
+  {
+   "sym": "COIN",
+   "night_premium": -1.988,
+   "call": "down",
+   "prev_close": 160.49000549316406
+  },
+  {
+   "sym": "NVDA",
+   "night_premium": -1.914,
+   "call": "down",
+   "prev_close": 207.39999389648438
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium": -1.571,
+   "call": "down",
+   "prev_close": 354.4599914550781
+  },
+  {
+   "sym": "META",
+   "night_premium": -1.53,
+   "call": "down",
+   "prev_close": 664.5399780273438
+  },
+  {
+   "sym": "AMZN",
+   "night_premium": -1.443,
+   "call": "down",
+   "prev_close": 249.88999938964844
+  },
+  {
+   "sym": "MU",
+   "night_premium": -1.426,
+   "call": "down",
+   "prev_close": 853.2000122070312
+  }
+ ]
+}
