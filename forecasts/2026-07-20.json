@@ -1,0 +1,104 @@
+{
+ "day": "2026-07-20",
+ "committed_at": "2026-07-20T13:00:38+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-20.json.",
+ "calls": [
+  {
+   "sym": "USAR",
+   "night_premium": 16.102,
+   "call": "up",
+   "prev_close": 15.649999618530273
+  },
+  {
+   "sym": "INTC",
+   "night_premium": 12.489,
+   "call": "up",
+   "prev_close": 95.04000091552734
+  },
+  {
+   "sym": "CRCL",
+   "night_premium": 7.989,
+   "call": "up",
+   "prev_close": 60.459999084472656
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium": 5.064,
+   "call": "up",
+   "prev_close": 346.7699890136719
+  },
+  {
+   "sym": "AMD",
+   "night_premium": 5.045,
+   "call": "up",
+   "prev_close": 495.760009765625
+  },
+  {
+   "sym": "NVDA",
+   "night_premium": 4.862,
+   "call": "up",
+   "prev_close": 202.80999755859375
+  },
+  {
+   "sym": "AAPL",
+   "night_premium": 4.836,
+   "call": "up",
+   "prev_close": 333.739990234375
+  },
+  {
+   "sym": "META",
+   "night_premium": 4.703,
+   "call": "up",
+   "prev_close": 646.010009765625
+  },
+  {
+   "sym": "SNDK",
+   "night_premium": 4.658,
+   "call": "up",
+   "prev_close": 1354.8199462890625
+  },
+  {
+   "sym": "PLTR",
+   "night_premium": -4.185,
+   "call": "down",
+   "prev_close": 132.3800048828125
+  },
+  {
+   "sym": "ORCL",
+   "night_premium": -2.887,
+   "call": "down",
+   "prev_close": 126.41000366210938
+  },
+  {
+   "sym": "USO",
+   "night_premium": -1.92,
+   "call": "down",
+   "prev_close": 123.95999908447266
+  },
+  {
+   "sym": "TSLA",
+   "night_premium": 1.809,
+   "call": "up",
+   "prev_close": 380.8399963378906
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": 1.71,
+   "call": "up",
+   "prev_close": 123.98999786376953
+  },
+  {
+   "sym": "QQQ",
+   "night_premium": 0.955,
+   "call": "up",
+   "prev_close": 695.3300170898438
+  },
+  {
+   "sym": "AMZN",
+   "night_premium": 0.789,
+   "call": "up",
+   "prev_close": 247.22999572753906
+  }
+ ]
+}
