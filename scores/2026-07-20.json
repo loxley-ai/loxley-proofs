@@ -1,0 +1,93 @@
+{
+ "day": "2026-07-20",
+ "scored_at": "2026-07-20T13:40:39+00:00",
+ "calls": [
+  {
+   "sym": "NVDA",
+   "night_premium_med": 1.595,
+   "open_move_pct": 1.592,
+   "prev_close": 202.80999755859375,
+   "open": 206.03799438476562,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "ORCL",
+   "night_premium_med": -0.862,
+   "open_move_pct": -3.726,
+   "prev_close": 126.41000366210938,
+   "open": 121.69999694824219,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "PLTR",
+   "night_premium_med": -2.183,
+   "open_move_pct": -0.378,
+   "prev_close": 132.3800048828125,
+   "open": 131.8800048828125,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "QQQ",
+   "night_premium_med": 1.067,
+   "open_move_pct": 0.997,
+   "prev_close": 695.3300170898438,
+   "open": 702.260009765625,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SPCX",
+   "night_premium_med": 1.634,
+   "open_move_pct": 1.081,
+   "prev_close": 123.98999786376953,
+   "open": 125.33000183105469,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "TSLA",
+   "night_premium_med": 1.05,
+   "open_move_pct": 1.378,
+   "prev_close": 380.8399963378906,
+   "open": 386.0880126953125,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "USO",
+   "night_premium_med": 1.206,
+   "open_move_pct": -0.613,
+   "prev_close": 123.95999908447266,
+   "open": 123.19999694824219,
+   "snapshots": 6,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  }
+ ],
+ "call_summary": {
+  "total": 7,
+  "hit": 6,
+  "miss": 0,
+  "wrong_way": 1
+ },
+ "rel_summary": {
+  "total": 5,
+  "hit": 5,
+  "miss": 0,
+  "wrong_way": 0
+ },
+ "wallet_summary": {
+  "graded_trades": 4634,
+  "unique_wallets": 932
+ },
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+}
