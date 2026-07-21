@@ -1,0 +1,21 @@
+# the outside line: the desk's own alarms ride the cron they are meant to
+# watch, so a second pair of eyes has to live off-platform. every half hour
+# this pings the watchdog endpoint; the desk checks its own pulse and rings
+# its operator if the collector has gone quiet. if the desk cannot even
+# answer, this run fails and GitHub sends the failure notice instead.
+name: watchdog
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions: {}
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: ping the desk
+        run: |
+          out=$(curl -sS --max-time 30 https://api.loxleyai.xyz/watchdog)
+          echo "$out"
+          echo "$out" | grep -q '"stale":false' || { echo "desk is stale or unreachable"; exit 1; }
