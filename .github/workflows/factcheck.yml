@@ -1,0 +1,22 @@
+# the second pair of eyes on the desk's own words: every hour, off-platform,
+# re-derive every price claim in the desk's recent public posts from sources
+# the desk does not control. a claim that fails the arithmetic, the official
+# close, or the live onchain print fails this run, and the failure notice is
+# the page. sources being down is never a failure; only wrong numbers are.
+name: factcheck
+on:
+  schedule:
+    - cron: "12 * * * *"
+  workflow_dispatch:
+permissions: {}
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: verify recent posts
+        run: node scripts/factcheck.mjs
