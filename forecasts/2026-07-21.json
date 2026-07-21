@@ -1,0 +1,74 @@
+{
+ "day": "2026-07-21",
+ "committed_at": "2026-07-21T13:00:03+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-21.json.",
+ "calls": [
+  {
+   "sym": "SNDK",
+   "night_premium": 7.707,
+   "call": "up",
+   "prev_close": 1390.949951171875
+  },
+  {
+   "sym": "SLV",
+   "night_premium": 4.257,
+   "call": "up",
+   "prev_close": 50.97999954223633
+  },
+  {
+   "sym": "PLTR",
+   "night_premium": -1.884,
+   "call": "down",
+   "prev_close": 134.85000610351562
+  },
+  {
+   "sym": "QQQ",
+   "night_premium": 1.677,
+   "call": "up",
+   "prev_close": 696.0599975585938
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": 1.189,
+   "call": "up",
+   "prev_close": 119.8499984741211
+  },
+  {
+   "sym": "NFLX",
+   "night_premium": 1.124,
+   "call": "up",
+   "prev_close": 67.5999984741211
+  },
+  {
+   "sym": "USO",
+   "night_premium": -1.115,
+   "call": "down",
+   "prev_close": 125.51000213623047
+  },
+  {
+   "sym": "NVDA",
+   "night_premium": 1.045,
+   "call": "up",
+   "prev_close": 203.27999877929688
+  },
+  {
+   "sym": "TSLA",
+   "night_premium": 1.043,
+   "call": "up",
+   "prev_close": 369.57000732421875
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium": 0.838,
+   "call": "up",
+   "prev_close": 351.989990234375
+  },
+  {
+   "sym": "SPY",
+   "night_premium": 0.797,
+   "call": "up",
+   "prev_close": 742.0900268554688
+  }
+ ]
+}
