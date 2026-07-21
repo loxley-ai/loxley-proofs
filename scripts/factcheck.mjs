@@ -72,6 +72,25 @@ async function dexPrices(sym) {
 
 const CLAIM = /([A-Z]{1,5}) onchain ([\d,]+(?:\.\d+)?), ([+−-][\d.]+)% vs close ([\d,]+(?:\.\d+)?)/g;
 
+// ---- the corrections ledger: claims the desk itself has withdrawn.
+// a withdrawn claim is not re-verified; it is reported as withdrawn, so a
+// checker never stamps "ok" on a number the desk already struck. the ledger
+// lives in this repo because corrections are part of the public record.
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+const HERE = dirname(fileURLToPath(import.meta.url));
+let CORRECTIONS = [];
+try {
+  CORRECTIONS = JSON.parse(readFileSync(join(HERE, "..", "corrections.json"), "utf8"));
+} catch (e) { /* no ledger yet; nothing is withdrawn */ }
+function withdrawn(sym, atIso) {
+  const t = new Date(atIso).getTime();
+  return CORRECTIONS.find((c) =>
+    (c.syms || []).includes(sym)
+    && t >= new Date(c.from).getTime() && t <= new Date(c.to).getTime());
+}
+
 let failures = 0, checked = 0;
 const posts = await recentPosts().catch((e) => {
   console.log(`mirror unreachable (${e.message}); nothing to verify this run`);
@@ -85,6 +104,13 @@ for (const p of posts) {
     const onchain = num(onchainRaw), close = num(closeRaw);
     const pct = num(pctRaw.replace("−", "-"));
     const label = `[${p.at}] ${sym} onchain ${onchain} ${pct}% vs close ${close}`;
+
+    // 0. a claim the desk has withdrawn is reported as such, never "ok"
+    const w = withdrawn(sym, p.at);
+    if (w) {
+      console.log(`withdrawn (correction on record): ${label} -> ${w.note}`);
+      continue;
+    }
 
     // 1. the post must agree with itself
     const derived = (onchain / close - 1) * 100;

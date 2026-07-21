@@ -1,0 +1,8 @@
+[
+  {
+    "from": "2026-07-20T21:30:00Z",
+    "to": "2026-07-20T23:30:00Z",
+    "syms": ["AMAT", "SNDK", "TSLA"],
+    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok."
+  }
+]
