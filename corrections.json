@@ -1,8 +1,10 @@
 [
   {
-    "from": "2026-07-20T21:30:00Z",
-    "to": "2026-07-20T23:30:00Z",
+    "from": "2026-07-21T07:00:00Z",
+    "to": "2026-07-21T09:00:00Z",
     "syms": ["AMAT", "SNDK", "TSLA"],
-    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok."
+    "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
+    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
+    "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
   }
 ]
