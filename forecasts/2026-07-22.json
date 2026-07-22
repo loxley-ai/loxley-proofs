@@ -1,0 +1,62 @@
+{
+ "day": "2026-07-22",
+ "committed_at": "2026-07-22T13:00:24+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-22.json.",
+ "calls": [
+  {
+   "sym": "GME",
+   "night_premium": 858.788,
+   "call": "up",
+   "prev_close": 21.790000915527344
+  },
+  {
+   "sym": "MU",
+   "night_premium": -2.699,
+   "call": "down",
+   "prev_close": 970.8200073242188
+  },
+  {
+   "sym": "USO",
+   "night_premium": 2.414,
+   "call": "up",
+   "prev_close": 128.85000610351562
+  },
+  {
+   "sym": "SNDK",
+   "night_premium": -2.359,
+   "call": "down",
+   "prev_close": 1589.4000244140625
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": 1.57,
+   "call": "up",
+   "prev_close": 123.54000091552734
+  },
+  {
+   "sym": "ORCL",
+   "night_premium": -1.503,
+   "call": "down",
+   "prev_close": 127.05000305175781
+  },
+  {
+   "sym": "NVDA",
+   "night_premium": -0.982,
+   "call": "down",
+   "prev_close": 207.2899932861328
+  },
+  {
+   "sym": "PLTR",
+   "night_premium": -0.961,
+   "call": "down",
+   "prev_close": 132.66000366210938
+  },
+  {
+   "sym": "NFLX",
+   "night_premium": -0.917,
+   "call": "down",
+   "prev_close": 68.66999816894531
+  }
+ ]
+}
