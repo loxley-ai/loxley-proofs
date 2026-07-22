@@ -1,0 +1,5 @@
+LOXLEY nightwatch seal
+day: 2026-07-21
+sha256: 4f51abc88a32eb94e8a847c836d54a9993b78fcf8930096fbf65d0e1f61227b6
+files: events.jsonl (0 bytes), flows.jsonl (940069 bytes), snapshots.jsonl (1705406 bytes)
+sealed_at: 2026-07-22T00:00:26+00:00
