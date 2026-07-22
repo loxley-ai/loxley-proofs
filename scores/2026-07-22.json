@@ -1,0 +1,123 @@
+{
+ "day": "2026-07-22",
+ "scored_at": "2026-07-22T13:40:26+00:00",
+ "calls": [
+  {
+   "sym": "GME",
+   "night_premium_med": 858.788,
+   "open_move_pct": -0.046,
+   "prev_close": 21.790000915527344,
+   "open": 21.780000686645508,
+   "snapshots": 5,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "INTC",
+   "night_premium_med": -4.59,
+   "open_move_pct": -3.651,
+   "prev_close": 105.44999694824219,
+   "open": 101.5999984741211,
+   "snapshots": 1,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "MU",
+   "night_premium_med": -3.048,
+   "open_move_pct": -3.336,
+   "prev_close": 970.8200073242188,
+   "open": 938.4349975585938,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "NFLX",
+   "night_premium_med": -0.955,
+   "open_move_pct": 1.019,
+   "prev_close": 68.66999816894531,
+   "open": 69.37000274658203,
+   "snapshots": 5,
+   "verdict": "WRONG_WAY",
+   "earnings": null
+  },
+  {
+   "sym": "NVDA",
+   "night_premium_med": -0.989,
+   "open_move_pct": -0.716,
+   "prev_close": 207.2899932861328,
+   "open": 205.80499267578125,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "ORCL",
+   "night_premium_med": -1.503,
+   "open_move_pct": -3.337,
+   "prev_close": 127.05000305175781,
+   "open": 122.80999755859375,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "PLTR",
+   "night_premium_med": -0.95,
+   "open_move_pct": -0.332,
+   "prev_close": 132.66000366210938,
+   "open": 132.22000122070312,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SNDK",
+   "night_premium_med": -2.644,
+   "open_move_pct": -3.869,
+   "prev_close": 1589.4000244140625,
+   "open": 1527.9000244140625,
+   "snapshots": 5,
+   "verdict": "HIT",
+   "earnings": null
+  },
+  {
+   "sym": "SPCX",
+   "night_premium_med": 1.465,
+   "open_move_pct": -0.202,
+   "prev_close": 123.54000091552734,
+   "open": 123.29000091552734,
+   "snapshots": 5,
+   "verdict": "MISS",
+   "earnings": null
+  },
+  {
+   "sym": "USO",
+   "night_premium_med": 2.414,
+   "open_move_pct": 0.054,
+   "prev_close": 128.85000610351562,
+   "open": 128.9199981689453,
+   "snapshots": 5,
+   "verdict": "MISS",
+   "earnings": null
+  }
+ ],
+ "call_summary": {
+  "total": 10,
+  "hit": 6,
+  "miss": 3,
+  "wrong_way": 1
+ },
+ "rel_summary": {
+  "total": 10,
+  "hit": 9,
+  "miss": 1,
+  "wrong_way": 0
+ },
+ "wallet_summary": {
+  "graded_trades": 2114,
+  "unique_wallets": 214
+ },
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+}
