@@ -3,16 +3,6 @@
  "scored_at": "2026-07-22T13:40:26+00:00",
  "calls": [
   {
-   "sym": "GME",
-   "night_premium_med": 858.788,
-   "open_move_pct": -0.046,
-   "prev_close": 21.790000915527344,
-   "open": 21.780000686645508,
-   "snapshots": 5,
-   "verdict": "MISS",
-   "earnings": null
-  },
-  {
    "sym": "INTC",
    "night_premium_med": -4.59,
    "open_move_pct": -3.651,
@@ -104,14 +94,14 @@
   }
  ],
  "call_summary": {
-  "total": 10,
+  "total": 9,
   "hit": 6,
-  "miss": 3,
+  "miss": 2,
   "wrong_way": 1
  },
  "rel_summary": {
-  "total": 10,
-  "hit": 9,
+  "total": 9,
+  "hit": 8,
   "miss": 1,
   "wrong_way": 0
  },
@@ -119,5 +109,6 @@
   "graded_trades": 2114,
   "unique_wallets": 214
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrected": "2026-07-22 same evening: GME row struck. a decoy-priced pool passed the size floor and fed the night series; the honest pool was below it. tally is 9 calls. the original file is in git history, the strike is in corrections.json entry 2. the ledger corrects itself."
 }
