@@ -1,10 +1,23 @@
 [
-  {
-    "from": "2026-07-21T07:00:00Z",
-    "to": "2026-07-21T09:00:00Z",
-    "syms": ["AMAT", "SNDK", "TSLA"],
-    "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
-    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
-    "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
-  }
+ {
+  "from": "2026-07-21T07:00:00Z",
+  "to": "2026-07-21T09:00:00Z",
+  "syms": [
+   "AMAT",
+   "SNDK",
+   "TSLA"
+  ],
+  "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
+  "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
+  "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
+ },
+ {
+  "from": "2026-07-22T01:50:00Z",
+  "to": "2026-07-22T13:40:30Z",
+  "syms": [
+   "GME"
+  ],
+  "scope": "the GME rows in forecasts/2026-07-22.json (night_premium 858.788, call up) and scores/2026-07-22.json (night_premium_med 858.788, verdict MISS) only. every other row in both files stands as written.",
+  "note": "GME correction 2026-07-22: the deepest dollar pool under the GME token carried roughly ten times the stock's price while a smaller honest pool traded near it. the board's decoy gate refused that price all day, but the forecast and the grader read the raw feed and let pool depth vouch for a decoy print. the GME call should not have existed: the honest pool was below the size floor. the night's tally reads 6 hit, 1 wrong way, 2 flat of 9 calls, not 10. both engines now refuse decoy-priced pools at the same gate the board uses, and the contaminated row was struck from the residual archive."
+ }
 ]
