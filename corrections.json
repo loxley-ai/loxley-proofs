@@ -1,63 +1,73 @@
 [
-  {
-    "from": "2026-07-21T07:00:00Z",
-    "to": "2026-07-21T09:00:00Z",
-    "syms": [
-      "AMAT",
-      "SNDK",
-      "TSLA"
-    ],
-    "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
-    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
-    "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
-  },
-  {
-    "from": "2026-07-22T01:50:00Z",
-    "to": "2026-07-22T13:40:30Z",
-    "syms": [
-      "GME"
-    ],
-    "scope": "the GME rows in forecasts/2026-07-22.json (night_premium 858.788, call up) and scores/2026-07-22.json (night_premium_med 858.788, verdict MISS) only. every other row in both files stands as written.",
-    "note": "GME correction 2026-07-22: the deepest dollar pool under the GME token carried roughly ten times the stock's price while a smaller honest pool traded near it. the board's decoy gate refused that price all day, but the forecast and the grader read the raw feed and let pool depth vouch for a decoy print. the GME call should not have existed: the honest pool was below the size floor. the night's tally reads 6 hit, 1 wrong way, 2 flat of 9 calls, not 10. both engines now refuse decoy-priced pools at the same gate the board uses, and the contaminated row was struck from the residual archive.",
-    "revised": "2026-07-22 same evening: the GME rows were struck outright from scores/2026-07-22.json and the live score record, not just marked; summaries recounted to 9 calls (6 hit, 2 miss, 1 wrong way; market-neutral 8-1-0). forecasts/2026-07-22.json stands as committed, sealed files are never rewritten; its GME row is void per this entry and will not be graded."
-  },
-  {
-    "from": "2026-07-23T00:40:00Z",
-    "to": "2026-07-23T04:30:00Z",
-    "syms": [
-      "COST",
-      "GME"
-    ],
-    "scope": "the COST case file opened 00:40Z and the case post announcing it, plus the COST and GME rows on the public board during this window. no graded call was built from either name, and every other row on the board stands as written.",
-    "note": "decoy prints reached the board and the docket 2026-07-23. the sanity bound on a print was 2.5x the official close, chosen for pools asking ten times the stock, and it let everything beneath it through. a GME pool holding $12,215 printed 53.46 against a 21.60 close, 2.475x, one notch under the bound, and reached the board as +147.5%. COST printed 1380.80 against a 927.31 close and opened a case file at +28.0%, while the honestly priced COST pool quoted 928.31 on $309,008 of real 24h volume and sat flat against that close. the case post is withdrawn: there was no dislocation. the bound is now a band of 35% either side of the close, stated as a band rather than a ratio because a ratio is asymmetric and would quarantine a genuine collapse while letting a smaller fantasy print. the case file was struck and both rows removed from the board."
-  },
-  {
-    "from": "2026-07-22T13:40:26Z",
-    "to": "2026-07-22T13:40:26Z",
-    "syms": [
-      "USO",
-      "ORCL"
-    ],
-    "scope": "the USO and ORCL rows in scores/2026-07-22.json and in the live score record only. the other seven calls of that grading, every wallet grade, and every other sealed day stand as written.",
-    "note": "two calls were graded against the previous session's opening price 2026-07-22. grading runs ten minutes after the bell and reads the day's opening print from a daily bar that, for these two names, had not settled yet: USO carried 128.92 and ORCL carried 122.81, which were the 2026-07-21 opens. the real 2026-07-22 opens were 131.42 and 126.18. USO was therefore recorded as moving +0.054% and graded MISS, when the open actually answered +1.995% to a night that had priced it +2.41% higher; on the stated rule that is a HIT. ORCL's direction was right and its verdict stands, but the move was published at -3.337% when it was -0.685%, nearly five times its real size. read hours later, both daily bars were correct, so nothing in the record would ever have shown this. the season now reads 92 calls, 69 hit, 17 wrong way, 6 flat, not 68 and 7. grading now reads the opening minute as a second source and refuses to grade any name whose two readings disagree by more than 0.15 percent, naming what it skipped rather than passing over it in silence."
-  },
-  {
-    "from": "2026-07-13T13:40:00Z",
-    "to": "2026-07-22T13:40:26Z",
-    "syms": [
-      "CRCL",
-      "ORCL",
-      "AMD",
-      "GOOGL",
-      "MSFT",
-      "MU",
-      "NVDA",
-      "SPY",
-      "TSLA",
-      "USO",
-      "SLV"
-    ],
-    "scope": "sixteen graded rows across scores/2026-07-13, 14, 15, 16, 17, 20 and 21. every other row in those files, every wallet grade, and the sealed forecasts stand as written.",
-    "note": "the season record was overstated. grading runs ten minutes after the opening bell and reads that morning's bar; for sixteen rows across seven days the bar had not settled and carried the previous session's values instead. the same fault produced yesterday's USO and ORCL entry, and a full re-derivation of all 92 calls against the settled bars has now found the rest. worst case: CRCL on 2026-07-13 was graded against a 70.66 open when the session opened at 64.42, which is the 2026-07-10 bar. ten verdicts change. the season reads 92 calls, 66 hit, 19 wrong way, 7 flat, not 69 hit and 17 wrong way. the published hit count was too high by three and the wrong-way count too low by two. rows whose stored open differs from the settled bar by less than a third of a percent were left alone: those are the opening minute rather than the daily aggregate, which is the source this desk now grades from on purpose. grading since 2026-07-23 requires the opening minute and the daily bar to agree within 0.15 percent and refuses to grade a name when they do not, naming what it skipped."
-  }
+ {
+  "from": "2026-07-21T07:00:00Z",
+  "to": "2026-07-21T09:00:00Z",
+  "syms": [
+   "AMAT",
+   "SNDK",
+   "TSLA"
+  ],
+  "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
+  "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
+  "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
+ },
+ {
+  "from": "2026-07-22T01:50:00Z",
+  "to": "2026-07-22T13:40:30Z",
+  "syms": [
+   "GME"
+  ],
+  "scope": "the GME rows in forecasts/2026-07-22.json (night_premium 858.788, call up) and scores/2026-07-22.json (night_premium_med 858.788, verdict MISS) only. every other row in both files stands as written.",
+  "note": "GME correction 2026-07-22: the deepest dollar pool under the GME token carried roughly ten times the stock's price while a smaller honest pool traded near it. the board's decoy gate refused that price all day, but the forecast and the grader read the raw feed and let pool depth vouch for a decoy print. the GME call should not have existed: the honest pool was below the size floor. the night's tally reads 6 hit, 1 wrong way, 2 flat of 9 calls, not 10. both engines now refuse decoy-priced pools at the same gate the board uses, and the contaminated row was struck from the residual archive.",
+  "revised": "2026-07-22 same evening: the GME rows were struck outright from scores/2026-07-22.json and the live score record, not just marked; summaries recounted to 9 calls (6 hit, 2 miss, 1 wrong way; market-neutral 8-1-0). forecasts/2026-07-22.json stands as committed, sealed files are never rewritten; its GME row is void per this entry and will not be graded."
+ },
+ {
+  "from": "2026-07-23T00:40:00Z",
+  "to": "2026-07-23T04:30:00Z",
+  "syms": [
+   "COST",
+   "GME"
+  ],
+  "scope": "the COST case file opened 00:40Z and the case post announcing it, plus the COST and GME rows on the public board during this window. no graded call was built from either name, and every other row on the board stands as written.",
+  "note": "decoy prints reached the board and the docket 2026-07-23. the sanity bound on a print was 2.5x the official close, chosen for pools asking ten times the stock, and it let everything beneath it through. a GME pool holding $12,215 printed 53.46 against a 21.60 close, 2.475x, one notch under the bound, and reached the board as +147.5%. COST printed 1380.80 against a 927.31 close and opened a case file at +28.0%, while the honestly priced COST pool quoted 928.31 on $309,008 of real 24h volume and sat flat against that close. the case post is withdrawn: there was no dislocation. the bound is now a band of 35% either side of the close, stated as a band rather than a ratio because a ratio is asymmetric and would quarantine a genuine collapse while letting a smaller fantasy print. the case file was struck and both rows removed from the board."
+ },
+ {
+  "from": "2026-07-22T13:40:26Z",
+  "to": "2026-07-22T13:40:26Z",
+  "syms": [
+   "USO",
+   "ORCL"
+  ],
+  "scope": "the USO and ORCL rows in scores/2026-07-22.json and in the live score record only. the other seven calls of that grading, every wallet grade, and every other sealed day stand as written.",
+  "note": "two calls were graded against the previous session's opening price 2026-07-22. grading runs ten minutes after the bell and reads the day's opening print from a daily bar that, for these two names, had not settled yet: USO carried 128.92 and ORCL carried 122.81, which were the 2026-07-21 opens. the real 2026-07-22 opens were 131.42 and 126.18. USO was therefore recorded as moving +0.054% and graded MISS, when the open actually answered +1.995% to a night that had priced it +2.41% higher; on the stated rule that is a HIT. ORCL's direction was right and its verdict stands, but the move was published at -3.337% when it was -0.685%, nearly five times its real size. read hours later, both daily bars were correct, so nothing in the record would ever have shown this. the season now reads 92 calls, 69 hit, 17 wrong way, 6 flat, not 68 and 7. grading now reads the opening minute as a second source and refuses to grade any name whose two readings disagree by more than 0.15 percent, naming what it skipped rather than passing over it in silence."
+ },
+ {
+  "from": "2026-07-13T13:40:00Z",
+  "to": "2026-07-22T13:40:26Z",
+  "syms": [
+   "CRCL",
+   "ORCL",
+   "AMD",
+   "GOOGL",
+   "MSFT",
+   "MU",
+   "NVDA",
+   "SPY",
+   "TSLA",
+   "USO",
+   "SLV"
+  ],
+  "scope": "sixteen graded rows across scores/2026-07-13, 14, 15, 16, 17, 20 and 21. every other row in those files, every wallet grade, and the sealed forecasts stand as written.",
+  "note": "the season record was overstated. grading runs ten minutes after the opening bell and reads that morning's bar; for sixteen rows across seven days the bar had not settled and carried the previous session's values instead. the same fault produced yesterday's USO and ORCL entry, and a full re-derivation of all 92 calls against the settled bars has now found the rest. worst case: CRCL on 2026-07-13 was graded against a 70.66 open when the session opened at 64.42, which is the 2026-07-10 bar. ten verdicts change. the season reads 92 calls, 66 hit, 19 wrong way, 7 flat, not 69 hit and 17 wrong way. the published hit count was too high by three and the wrong-way count too low by two. rows whose stored open differs from the settled bar by less than a third of a percent were left alone: those are the opening minute rather than the daily aggregate, which is the source this desk now grades from on purpose. grading since 2026-07-23 requires the opening minute and the daily bar to agree within 0.15 percent and refuses to grade a name when they do not, naming what it skipped."
+ },
+ {
+  "from": "2026-07-20T10:51:48Z",
+  "to": "2026-07-23T15:40:00Z",
+  "syms": [
+   "LOXLEY"
+  ],
+  "scope": "two claims about this token's own allocation, on loxleyai.xyz section 08 and /guide sections 7 and 8. no market number, no graded call and no sealed day is touched by this entry.",
+  "note": "the site described the locked supply as two tranches, 15% holder rewards and 10% team, and the token page it sends readers to carries one: a single tranche named Team, 250,000,000 of a 1,000,000,000 supply, locked until 2027-07-20. the 15/10 split is real as an intention of this desk and is not enforced by the chain, and the page did not say so. separately, /guide section 8 said of the trade fee and the anti-sniper buyback that \"neither pool touches the team's pocket\". the buyback does: the launchpad files those 1,989,738 tokens (0.199%) under a tranche literally named \"Sniper Tax Buyback for Team\", locked until 2026-10-21, paid to the same wallet as the team tranche. found by an outside audit of this desk's own public claims, checked against the virtuals API for this agent, and corrected the same day. a desk that sells honesty about other people's numbers does not get an exemption on its own.",
+  "revised": "2026-07-23"
+ }
 ]
