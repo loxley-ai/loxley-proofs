@@ -45,9 +45,9 @@
   {
    "sym": "ORCL",
    "night_premium_med": -1.503,
-   "open_move_pct": -3.337,
+   "open_move_pct": -0.685,
    "prev_close": 127.05000305175781,
-   "open": 122.80999755859375,
+   "open": 126.18000030517578,
    "snapshots": 5,
    "verdict": "HIT",
    "earnings": null
@@ -85,18 +85,18 @@
   {
    "sym": "USO",
    "night_premium_med": 2.414,
-   "open_move_pct": 0.054,
+   "open_move_pct": 1.995,
    "prev_close": 128.85000610351562,
-   "open": 128.9199981689453,
+   "open": 131.4199981689453,
    "snapshots": 5,
-   "verdict": "MISS",
+   "verdict": "HIT",
    "earnings": null
   }
  ],
  "call_summary": {
   "total": 9,
-  "hit": 6,
-  "miss": 2,
+  "hit": 7,
+  "miss": 1,
   "wrong_way": 1
  },
  "rel_summary": {
@@ -110,5 +110,8 @@
   "unique_wallets": 214
  },
  "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
- "corrected": "2026-07-22 same evening: GME row struck. a decoy-priced pool passed the size floor and fed the night series; the honest pool was below it. tally is 9 calls. the original file is in git history, the strike is in corrections.json entry 2. the ledger corrects itself."
+ "corrected": "2026-07-22 same evening: GME row struck. a decoy-priced pool passed the size floor and fed the night series; the honest pool was below it. tally is 9 calls. the original file is in git history, the strike is in corrections.json entry 2. the ledger corrects itself.",
+ "corrections": [
+  "2026-07-23: USO and ORCL were graded against the 2026-07-21 opens because the daily bar had not settled ten minutes after the bell. Regraded on the real 2026-07-22 opens, 131.42 and 126.18. USO moves from MISS to HIT. See corrections.json."
+ ]
 }
