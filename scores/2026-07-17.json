@@ -25,11 +25,11 @@
   {
    "sym": "CRCL",
    "night_premium_med": 7.668,
-   "open_move_pct": 6.25,
+   "open_move_pct": -2.408,
    "prev_close": 60.63999938964844,
-   "open": 64.43000030517578,
+   "open": 59.18000030517578,
    "snapshots": 7,
-   "verdict": "HIT",
+   "verdict": "WRONG_WAY",
    "earnings": null
   },
   {
@@ -95,11 +95,11 @@
   {
    "sym": "ORCL",
    "night_premium_med": -0.99,
-   "open_move_pct": 5.849,
+   "open_move_pct": -2.021,
    "prev_close": 124.20999908447266,
-   "open": 131.47500610351562,
+   "open": 121.69999694824219,
    "snapshots": 18,
-   "verdict": "WRONG_WAY",
+   "verdict": "HIT",
    "earnings": null
   },
   {
@@ -169,5 +169,8 @@
   "graded_trades": 416,
   "unique_wallets": 95
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrections": [
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+ ]
 }

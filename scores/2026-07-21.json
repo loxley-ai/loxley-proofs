@@ -55,9 +55,9 @@
   {
    "sym": "SLV",
    "night_premium_med": 4.374,
-   "open_move_pct": 0.432,
+   "open_move_pct": 3.688,
    "prev_close": 50.97999954223633,
-   "open": 51.20000076293945,
+   "open": 52.86000061035156,
    "snapshots": 4,
    "verdict": "HIT",
    "earnings": null
@@ -119,5 +119,8 @@
   "graded_trades": 529,
   "unique_wallets": 94
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrections": [
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+ ]
 }

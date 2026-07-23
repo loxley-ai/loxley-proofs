@@ -15,9 +15,9 @@
   {
    "sym": "ORCL",
    "night_premium_med": -0.862,
-   "open_move_pct": -3.726,
+   "open_move_pct": -1.693,
    "prev_close": 126.41000366210938,
-   "open": 121.69999694824219,
+   "open": 124.2699966430664,
    "snapshots": 18,
    "verdict": "HIT",
    "earnings": null
@@ -65,19 +65,19 @@
   {
    "sym": "USO",
    "night_premium_med": 1.206,
-   "open_move_pct": -0.613,
+   "open_move_pct": -0.145,
    "prev_close": 123.95999908447266,
-   "open": 123.19999694824219,
+   "open": 123.77999877929688,
    "snapshots": 6,
-   "verdict": "WRONG_WAY",
+   "verdict": "MISS",
    "earnings": null
   }
  ],
  "call_summary": {
   "total": 7,
   "hit": 6,
-  "miss": 0,
-  "wrong_way": 1
+  "miss": 1,
+  "wrong_way": 0
  },
  "rel_summary": {
   "total": 5,
@@ -89,5 +89,8 @@
   "graded_trades": 4634,
   "unique_wallets": 932
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrections": [
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+ ]
 }

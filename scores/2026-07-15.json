@@ -5,8 +5,8 @@
   {
    "sym": "AMD",
    "night_premium_med": 7.386,
-   "open_move_pct": 4.048,
-   "prev_close": 534.3900146484375,
+   "open_move_pct": 1.439,
+   "prev_close": 548.1300048828125,
    "open": 556.02001953125,
    "snapshots": 99,
    "verdict": "HIT",
@@ -15,41 +15,41 @@
   {
    "sym": "GOOGL",
    "night_premium_med": 1.884,
-   "open_move_pct": 1.6,
-   "prev_close": 352.510009765625,
-   "open": 358.1499938964844,
+   "open_move_pct": -0.428,
+   "prev_close": 359.510009765625,
+   "open": 357.9700012207031,
    "snapshots": 99,
-   "verdict": "HIT",
+   "verdict": "WRONG_WAY",
    "earnings": null
   },
   {
    "sym": "MSFT",
    "night_premium_med": -2.491,
-   "open_move_pct": -0.816,
-   "prev_close": 390.989990234375,
+   "open_move_pct": 0.746,
+   "prev_close": 384.92999267578125,
    "open": 387.79998779296875,
    "snapshots": 97,
-   "verdict": "HIT",
+   "verdict": "WRONG_WAY",
    "earnings": null
   },
   {
    "sym": "MU",
    "night_premium_med": 4.347,
-   "open_move_pct": 4.141,
-   "prev_close": 937,
-   "open": 975.8049926757812,
+   "open_move_pct": -0.744,
+   "prev_close": 983.1199951171875,
+   "open": 975.8099975585938,
    "snapshots": 99,
-   "verdict": "HIT",
+   "verdict": "WRONG_WAY",
    "earnings": null
   },
   {
    "sym": "NVDA",
    "night_premium_med": 1.225,
-   "open_move_pct": 4.166,
-   "prev_close": 203.52999877929688,
-   "open": 212.00999450683594,
+   "open_move_pct": 0.076,
+   "prev_close": 211.8000030517578,
+   "open": 211.9600067138672,
    "snapshots": 99,
-   "verdict": "HIT",
+   "verdict": "MISS",
    "earnings": null
   },
   {
@@ -65,19 +65,19 @@
   {
    "sym": "SPY",
    "night_premium_med": 0.923,
-   "open_move_pct": 0.232,
-   "prev_close": 749.1699829101562,
-   "open": 750.9099731445312,
+   "open_move_pct": 0.321,
+   "prev_close": 751.8300170898438,
+   "open": 754.239990234375,
    "snapshots": 99,
-   "verdict": "MISS",
+   "verdict": "HIT",
    "earnings": null
   },
   {
    "sym": "TSLA",
    "night_premium_med": 4.742,
-   "open_move_pct": 1.174,
-   "prev_close": 394.760009765625,
-   "open": 399.3949890136719,
+   "open_move_pct": 0.813,
+   "prev_close": 396.17999267578125,
+   "open": 399.3999938964844,
    "snapshots": 99,
    "verdict": "HIT",
    "earnings": null
@@ -85,9 +85,9 @@
  ],
  "call_summary": {
   "total": 8,
-  "hit": 7,
+  "hit": 4,
   "miss": 1,
-  "wrong_way": 0
+  "wrong_way": 3
  },
  "rel_summary": {
   "total": 7,
@@ -99,5 +99,8 @@
   "graded_trades": 888,
   "unique_wallets": 252
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrections": [
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+ ]
 }

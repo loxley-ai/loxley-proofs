@@ -145,9 +145,9 @@
   {
    "sym": "USAR",
    "night_premium_med": 4.968,
-   "open_move_pct": -2.946,
+   "open_move_pct": -2.542,
    "prev_close": 17.309999465942383,
-   "open": 16.799999237060547,
+   "open": 16.8700008392334,
    "snapshots": 3,
    "verdict": "WRONG_WAY",
    "earnings": null
@@ -169,5 +169,8 @@
   "graded_trades": 8,
   "unique_wallets": 7
  },
- "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
+ "corrections": [
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+ ]
 }
