@@ -15,9 +15,9 @@
   {
    "sym": "GOOGL",
    "night_premium_med": 1.884,
-   "open_move_pct": -0.428,
+   "open_move_pct": -0.378,
    "prev_close": 359.510009765625,
-   "open": 357.9700012207031,
+   "open": 358.1499938964844,
    "snapshots": 99,
    "verdict": "WRONG_WAY",
    "earnings": null
@@ -101,6 +101,6 @@
  },
  "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/.",
  "corrections": [
-  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json."
+  "2026-07-23: rows regraded on the real session bars. Grading ran ten minutes after the bell and the daily bar had not settled, so these carried the previous session values. See corrections.json. Two opens were briefly replaced with the daily bar during that pass and are restored to the opening minute here."
  ]
 }
