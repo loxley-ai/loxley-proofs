@@ -30,5 +30,15 @@
     ],
     "scope": "the COST case file opened 00:40Z and the case post announcing it, plus the COST and GME rows on the public board during this window. no graded call was built from either name, and every other row on the board stands as written.",
     "note": "decoy prints reached the board and the docket 2026-07-23. the sanity bound on a print was 2.5x the official close, chosen for pools asking ten times the stock, and it let everything beneath it through. a GME pool holding $12,215 printed 53.46 against a 21.60 close, 2.475x, one notch under the bound, and reached the board as +147.5%. COST printed 1380.80 against a 927.31 close and opened a case file at +28.0%, while the honestly priced COST pool quoted 928.31 on $309,008 of real 24h volume and sat flat against that close. the case post is withdrawn: there was no dislocation. the bound is now a band of 35% either side of the close, stated as a band rather than a ratio because a ratio is asymmetric and would quarantine a genuine collapse while letting a smaller fantasy print. the case file was struck and both rows removed from the board."
+  },
+  {
+    "from": "2026-07-22T13:40:26Z",
+    "to": "2026-07-22T13:40:26Z",
+    "syms": [
+      "USO",
+      "ORCL"
+    ],
+    "scope": "the USO and ORCL rows in scores/2026-07-22.json and in the live score record only. the other seven calls of that grading, every wallet grade, and every other sealed day stand as written.",
+    "note": "two calls were graded against the previous session's opening price 2026-07-22. grading runs ten minutes after the bell and reads the day's opening print from a daily bar that, for these two names, had not settled yet: USO carried 128.92 and ORCL carried 122.81, which were the 2026-07-21 opens. the real 2026-07-22 opens were 131.42 and 126.18. USO was therefore recorded as moving +0.054% and graded MISS, when the open actually answered +1.995% to a night that had priced it +2.41% higher; on the stated rule that is a HIT. ORCL's direction was right and its verdict stands, but the move was published at -3.337% when it was -0.685%, nearly five times its real size. read hours later, both daily bars were correct, so nothing in the record would ever have shown this. the season now reads 92 calls, 69 hit, 17 wrong way, 6 flat, not 68 and 7. grading now reads the opening minute as a second source and refuses to grade any name whose two readings disagree by more than 0.15 percent, naming what it skipped rather than passing over it in silence."
   }
 ]
