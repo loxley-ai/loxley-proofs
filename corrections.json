@@ -80,5 +80,15 @@
   "scope": "the night figures on the PLTR and SPCX rows of the 13:50Z docket post only. the verdicts on those two rows stand, the TSLA and GOOGL rows of the same post stand, and every graded call in scores/2026-07-23.json stands as written.",
   "note": "a docket post printed one column under two meanings 2026-07-23. the table headed a column night and filled it from the case file's own gap for TSLA and GOOGL, and from the grading's night premium for PLTR and SPCX, because those two files were opened against the 2026-07-21 close while the grading measured the 2026-07-22 night. PLTR's file was opened tracking a -6.181% dislocation and the table said night +1.1%, which reads as a direction called and confirmed. that dislocation was gone by the open. SPCX read +1.2% against a file opened at -6.065%. every figure traced to a real field, which is why the hourly checker passed it. the single-case version of this post carries the qualifier \"against the <date> close\" and the multi-row table dropped it. rows whose ruler differs from the grading no longer reach the table at all; they close on the docket and in the ops room with the reason on them.",
   "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-15T13:40:00Z",
+  "to": "2026-07-17T13:40:00Z",
+  "syms": [
+   "*"
+  ],
+  "scope": "the names-count on two rows of the sealed history only: /premium reports n=10 for 2026-07-15 and n=19 for 2026-07-17, while /liquidity reports names=9 and names=10 for the same two days. no graded call, no wallet grade, and no other day is touched.",
+  "note": "a logical impossibility on two historical rows, flagged rather than silently picked. the premium median is taken over names that have a pool over the size floor, so its n can never exceed the liquidity names-count for the same night, yet on 2026-07-15 and 2026-07-17 it does. the two counts were written by separate passes and one of each pair is wrong. the underlying per-pool snapshots for those nights are not reconstructable from outside this desk, so we cannot say which side is right without asserting it, and this desk does not assert. both rows carry this mark. the arithmetic that produced the disagreement was corrected forward; these two sealed rows stand as written, flagged.",
+  "revised": "2026-07-24"
  }
 ]
