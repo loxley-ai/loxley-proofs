@@ -1,24 +1,34 @@
 [
- {
-  "from": "2026-07-21T07:00:00Z",
-  "to": "2026-07-21T09:00:00Z",
-  "syms": [
-   "AMAT",
-   "SNDK",
-   "TSLA"
-  ],
-  "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
-  "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
-  "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
- },
- {
-  "from": "2026-07-22T01:50:00Z",
-  "to": "2026-07-22T13:40:30Z",
-  "syms": [
-   "GME"
-  ],
-  "scope": "the GME rows in forecasts/2026-07-22.json (night_premium 858.788, call up) and scores/2026-07-22.json (night_premium_med 858.788, verdict MISS) only. every other row in both files stands as written.",
-  "note": "GME correction 2026-07-22: the deepest dollar pool under the GME token carried roughly ten times the stock's price while a smaller honest pool traded near it. the board's decoy gate refused that price all day, but the forecast and the grader read the raw feed and let pool depth vouch for a decoy print. the GME call should not have existed: the honest pool was below the size floor. the night's tally reads 6 hit, 1 wrong way, 2 flat of 9 calls, not 10. both engines now refuse decoy-priced pools at the same gate the board uses, and the contaminated row was struck from the residual archive.",
-  "revised": "2026-07-22 same evening: the GME rows were struck outright from scores/2026-07-22.json and the live score record, not just marked; summaries recounted to 9 calls (6 hit, 2 miss, 1 wrong way; market-neutral 8-1-0). forecasts/2026-07-22.json stands as committed, sealed files are never rewritten; its GME row is void per this entry and will not be graded."
- }
+  {
+    "from": "2026-07-21T07:00:00Z",
+    "to": "2026-07-21T09:00:00Z",
+    "syms": [
+      "AMAT",
+      "SNDK",
+      "TSLA"
+    ],
+    "scope": "prints and case posts produced by the 07:20Z aggregator fallback cycle only. this does not withdraw the names themselves: real-pool prints for these symbols before and after the window, and every graded record built from real pools, stand as written.",
+    "note": "three case posts withdrawn 2026-07-21: one aggregator cycle printed broken numbers (a dust pool dressed as depth, a mixed-quote price). the files were struck the same evening and the correction posted on X. the seals stand as written; this ledger marks the claims so no checker ever stamps them ok.",
+    "revised": "2026-07-22: window corrected from 2026-07-20T21:30-23:30Z (a timezone error in the first entry) to the actual cycle window above, and scope added. the ledger corrects itself in public, like everything else here."
+  },
+  {
+    "from": "2026-07-22T01:50:00Z",
+    "to": "2026-07-22T13:40:30Z",
+    "syms": [
+      "GME"
+    ],
+    "scope": "the GME rows in forecasts/2026-07-22.json (night_premium 858.788, call up) and scores/2026-07-22.json (night_premium_med 858.788, verdict MISS) only. every other row in both files stands as written.",
+    "note": "GME correction 2026-07-22: the deepest dollar pool under the GME token carried roughly ten times the stock's price while a smaller honest pool traded near it. the board's decoy gate refused that price all day, but the forecast and the grader read the raw feed and let pool depth vouch for a decoy print. the GME call should not have existed: the honest pool was below the size floor. the night's tally reads 6 hit, 1 wrong way, 2 flat of 9 calls, not 10. both engines now refuse decoy-priced pools at the same gate the board uses, and the contaminated row was struck from the residual archive.",
+    "revised": "2026-07-22 same evening: the GME rows were struck outright from scores/2026-07-22.json and the live score record, not just marked; summaries recounted to 9 calls (6 hit, 2 miss, 1 wrong way; market-neutral 8-1-0). forecasts/2026-07-22.json stands as committed, sealed files are never rewritten; its GME row is void per this entry and will not be graded."
+  },
+  {
+    "from": "2026-07-23T00:40:00Z",
+    "to": "2026-07-23T04:30:00Z",
+    "syms": [
+      "COST",
+      "GME"
+    ],
+    "scope": "the COST case file opened 00:40Z and the case post announcing it, plus the COST and GME rows on the public board during this window. no graded call was built from either name, and every other row on the board stands as written.",
+    "note": "decoy prints reached the board and the docket 2026-07-23. the sanity bound on a print was 2.5x the official close, chosen for pools asking ten times the stock, and it let everything beneath it through. a GME pool holding $12,215 printed 53.46 against a 21.60 close, 2.475x, one notch under the bound, and reached the board as +147.5%. COST printed 1380.80 against a 927.31 close and opened a case file at +28.0%, while the honestly priced COST pool quoted 928.31 on $309,008 of real 24h volume and sat flat against that close. the case post is withdrawn: there was no dislocation. the bound is now a band of 35% either side of the close, stated as a band rather than a ratio because a ratio is asymmetric and would quarantine a genuine collapse while letting a smaller fantasy print. the case file was struck and both rows removed from the board."
+  }
 ]
