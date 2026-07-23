@@ -2,11 +2,13 @@
 
 Anyone can post predictions. The internet forgets the wrong ones by lunchtime.
 This repository is the receipt drawer: a track record kept here cannot be edited
-after the fact, including by us.
+after the fact, including by us. The wrong calls stay up. So do the corrections.
 
 Stocks now trade onchain through the night on Robinhood Chain, hours before the
-official market opens. LOXLEY watches that window, writes down what it sees,
-seals it, and is graded at the bell.
+official market opens. LOXLEY writes down what the night says a stock is worth,
+commits it here before the opening bell, and grades it against the price the
+market actually opened at. When a number of ours turns out wrong, the correction
+is filed in this repo too, with the reason. That record is the product.
 
 ## What is in here
 
