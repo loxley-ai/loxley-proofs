@@ -142,5 +142,16 @@
   "scope": "the PLTR and SPCX case files on the /docket surface only. no sealed night-premium call is touched: the season record (100 graded calls) and every scores/*.json stand as written, because the docket's dislocation files are a separate system from the graded night calls. this reverses, for these two files only, the decision recorded in the 2026-07-23 correction that kept them graded.",
   "note": "these two files were graded HIT and MISS on the docket for overnight dislocations of -6.181% and -6.065%, and they were neither. both opened 40 minutes after the 07-22 bell against the 2026-07-21 close, after the 07-22 close had already rolled, so the gap each filed was the stock's own 07-22 regular-session decline measured against a ruler a day stale. against the close that actually defined that night, PLTR was -0.087% and SPCX +0.683%. the verdicts were matched from a later grading of a different night. this is the identical fault as the TSLA and GOOGL files withdrawn earlier today, and the same docket cannot withdraw one pair of it and grade the other, so PLTR and SPCX are now withdrawn with the reason on them. the fix that stops a file opening on a close the session has already answered (a night does not open until its defining close is on file, and a carried row that outlived its ruler states no gap) is deployed.",
   "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-23T08:10:30Z",
+  "to": "2026-07-24T07:22:43Z",
+  "syms": [
+   "TSLA",
+   "GOOGL"
+  ],
+  "scope": "two case files published to the public wire on 07-23 that the docket should have kept: TSLA, opened 08:10:30Z at -5.1%, and GOOGL, opened 12:50:48Z at -5.1%. no sealed night-premium call is touched; the season record and every scores/*.json stand as written. these are not the 20:00Z TSLA/GOOGL files withdrawn in the 2026-07-24 correction above, they are the earlier files of the same day.",
+  "note": "the docket stored one case per symbol and deleted closed files two days after they closed, so when a later file opened on the same name the published one was overwritten in place. both files named here were announced on the public channels and then vanished from the docket: a reader following either post found a different file or nothing. the desk's product is that the record is not quietly edited, and the docket was quietly editing it. both files were overwritten before any archive existed, so their contents are gone and cannot be restored; this entry is their only remaining record. the fix is deployed: every case file is archived append-only before it can be overwritten or pruned, the /docket surface serves the archive, and a replaced file keeps a null verdict rather than borrowing a grade the market never gave it.",
+  "revised": "2026-07-24"
  }
 ]
