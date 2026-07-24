@@ -121,5 +121,15 @@
   "scope": "the GME case file opened 2026-07-23T09:10:09Z and the post at 09:10:31Z that announced it, on the docket, on X and in the public channel. no graded call is touched: GME is not in scores/2026-07-23.json, the season record is unchanged, and the board rows for GME stand as published.",
   "note": "the desk filed an accusation on the wrong twelve hours. from 2026-07-22T21:00Z to 2026-07-23T09:00Z the GME/USDG pool filled 123,562 trades at a median of 117.81 against a 21.60 official close, four to fifteen times the stock. every one of those prints was refused by the print band, correctly, and because a refused print left no row the name simply was not on the board for twelve hours and the desk said nothing about it. at 09:10 the pool came back inside the band at +21.25% and that print, the tail of the episode, opened a public file saying no headline explained it. the number was real and the story was backwards: the event was a pool that could not price the stock, and the desk published the moment it started pricing it again. the file is withdrawn rather than graded. two fixes came out of that night and both are deployed: a name with a live market and no printable price is now counted and paged rather than dropped in silence, and a file cannot open unless an independent witness puts the stock near the pool's quote, which this print could not have cleared.",
   "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-22T23:50:04Z",
+  "to": "2026-07-23T10:50:09Z",
+  "syms": [
+   "GME"
+  ],
+  "scope": "two crack rows on the /depth sheet only: GME 2026-07-22T23:50:04Z (from 272,496 to 172,178, -36.8%) and GME 2026-07-23T10:20:09Z (from 270,076 to 1,983, -99.3%, recovered in one cycle). the GME crack row of 2026-07-21T22:10:26Z, fired on a real ~$15k pool, is a genuine crack and stands. no graded call, no liquidity total and no other name is touched: these rows never entered /liquidity or the board, which refused the pool that produced them.",
+  "note": "the crack ledger recorded two thinning events on a GME pool the rest of the desk was refusing all night as a decoy. that pool quoted GME far from its official close (the board and /liquidity both excluded it under the 35% print band), so a swing in its depth is not the depth behind GME thinning, it is a pool nobody should trade moving. the -99.3% to $1,983-and-instant-recovery row is the shape of a pool-switch artifact, not a real 99% drain. the crack detector now reads depth only from pools inside the same 35% band the board prints by, so a decoy can no longer fire a crack going forward; these two historical rows, fired before that gate, are annotated here rather than deleted, and they age off the 14-day sheet on their own. what a stranger should take from /depth cracks: read them against whether the name had an in-band pool that night.",
+  "revised": "2026-07-24"
  }
 ]
