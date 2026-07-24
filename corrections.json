@@ -90,5 +90,26 @@
   "scope": "the names-count on two rows of the sealed history only: /premium reports n=10 for 2026-07-15 and n=19 for 2026-07-17, while /liquidity reports names=9 and names=10 for the same two days. no graded call, no wallet grade, and no other day is touched.",
   "note": "a logical impossibility on two historical rows, flagged rather than silently picked. the premium median is taken over names that have a pool over the size floor, so its n can never exceed the liquidity names-count for the same night, yet on 2026-07-15 and 2026-07-17 it does. the two counts were written by separate passes and one of each pair is wrong. the underlying per-pool snapshots for those nights are not reconstructable from outside this desk, so we cannot say which side is right without asserting it, and this desk does not assert. both rows carry this mark. the arithmetic that produced the disagreement was corrected forward; these two sealed rows stand as written, flagged.",
   "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-23T20:00:09Z",
+  "to": "2026-07-24T02:57:54Z",
+  "syms": [
+   "TSLA",
+   "GOOGL"
+  ],
+  "scope": "the two case files opened 2026-07-23T20:00:09Z and the docket post at 20:01:15Z that announced them, on the docket and on X. no graded call is touched: the 2026-07-23 grading of TSLA and GOOGL stands as written in scores/2026-07-23.json, the season record is unchanged, and no wallet grade is affected.",
+  "note": "the desk opened two case files it had no business opening. the bell rings at 16:00 New York and the night machinery starts there, but the day's official close does not reach the files until 16:30. for those thirty minutes every gap on the board is still measured against the session before, so the 2026-07-23 session's own decline read as an overnight dislocation: TSLA -15.275% and GOOGL -6.963%, which is 374.01 to 319.69 and 342.09 to 317.69, the closes of 07-22 and 07-23. both names had already been graded that same morning against that same close, TSLA night -7.8% open -8.8% HIT and GOOGL night -5.3% open -6.1% HIT, so the docket accused the market a second time of a move it had already scored and closed. the files are withdrawn with the reason on them rather than graded, because the market never answered a question the desk had already had answered. the gate is deployed: a night does not open until the close that defines it is on file, and it reads the roll marker rather than the clock so a market holiday is still a night.",
+  "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-24T00:12:24Z",
+  "to": "2026-07-24T00:12:24Z",
+  "syms": [
+   "INTC"
+  ],
+  "scope": "one sentence of the night page published 2026-07-24T00:12:24Z. every price, premium, close and pool depth on that page is correct and stands as published, and no other page is touched.",
+  "note": "a night page called its deepest pool its thinnest. the page listed INTC $82k, ORCL $6k, PLTR $33k and SLV $35k, wrote of INTC \"up +3.63% on the thinnest liquidity here, $82k\", and three sentences later called ORCL's $6k \"noise dressed as a move\". the figures are right, INTC/USDG held $81,673 at the read, and the hourly checker passed the page because it reads figures and not the words that rank them. depth is the one figure a reader uses to decide how far to trust the print above it, and that judgement went out backwards on the loudest name of the night. the sentence is withdrawn, the numbers stand. the door check now refuses any page whose superlative disagrees with the depths printed on it, verified against the four pages published that night: it holds this one and passes the other three.",
+  "revised": "2026-07-24"
  }
 ]
