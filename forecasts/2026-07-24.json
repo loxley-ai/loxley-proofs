@@ -1,0 +1,74 @@
+{
+ "day": "2026-07-24",
+ "committed_at": "2026-07-24T13:00:49+00:00",
+ "opens_et": "09:30",
+ "method": "median overnight onchain premium of each liquid stock token vs its prior official close, committed before the US open. graded against the actual open in scores/2026-07-24.json.",
+ "calls": [
+  {
+   "sym": "INTC",
+   "night_premium": 4.56,
+   "call": "up",
+   "prev_close": 100.2300033569336
+  },
+  {
+   "sym": "SNDK",
+   "night_premium": -2.394,
+   "call": "down",
+   "prev_close": 1610.3299560546875
+  },
+  {
+   "sym": "MU",
+   "night_premium": -1.734,
+   "call": "down",
+   "prev_close": 990.2100219726562
+  },
+  {
+   "sym": "USO",
+   "night_premium": -1.563,
+   "call": "down",
+   "prev_close": 139.49000549316406
+  },
+  {
+   "sym": "MSFT",
+   "night_premium": 1.452,
+   "call": "up",
+   "prev_close": 381.5799865722656
+  },
+  {
+   "sym": "SPCX",
+   "night_premium": -1.277,
+   "call": "down",
+   "prev_close": 118.23999786376953
+  },
+  {
+   "sym": "TSLA",
+   "night_premium": 1.179,
+   "call": "up",
+   "prev_close": 319.69000244140625
+  },
+  {
+   "sym": "COIN",
+   "night_premium": 1.005,
+   "call": "up",
+   "prev_close": 161.16000366210938
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium": 0.969,
+   "call": "up",
+   "prev_close": 317.69000244140625
+  },
+  {
+   "sym": "ORCL",
+   "night_premium": 0.855,
+   "call": "up",
+   "prev_close": 120.04000091552734
+  },
+  {
+   "sym": "SLV",
+   "night_premium": 0.826,
+   "call": "up",
+   "prev_close": 52.060001373291016
+  }
+ ]
+}
