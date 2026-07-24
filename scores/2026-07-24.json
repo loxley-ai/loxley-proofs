@@ -1,0 +1,144 @@
+{
+ "day": "2026-07-24",
+ "scored_at": "2026-07-24T13:40:50+00:00",
+ "calls": [
+  {
+   "sym": "COIN",
+   "night_premium_med": 1.024,
+   "open_move_pct": -0.099,
+   "prev_close": 161.16000366210938,
+   "open": 161,
+   "snapshots": 18,
+   "verdict": "MISS",
+   "earnings": null,
+   "open_src": "both"
+  },
+  {
+   "sym": "GOOGL",
+   "night_premium_med": 0.881,
+   "open_move_pct": 0.197,
+   "prev_close": 317.69000244140625,
+   "open": 318.31500244140625,
+   "snapshots": 18,
+   "verdict": "MISS",
+   "earnings": null,
+   "open_src": "both"
+  },
+  {
+   "sym": "INTC",
+   "night_premium_med": 3.871,
+   "open_move_pct": -0.808,
+   "prev_close": 100.2300033569336,
+   "open": 99.41999816894531,
+   "snapshots": 18,
+   "verdict": "WRONG_WAY",
+   "earnings": "post",
+   "open_src": "minute"
+  },
+  {
+   "sym": "MSFT",
+   "night_premium_med": 1.452,
+   "open_move_pct": 1.302,
+   "prev_close": 381.5799865722656,
+   "open": 386.5480041503906,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "both"
+  },
+  {
+   "sym": "MU",
+   "night_premium_med": -1.541,
+   "open_move_pct": -3.73,
+   "prev_close": 990.2100219726562,
+   "open": 953.280029296875,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "minute"
+  },
+  {
+   "sym": "ORCL",
+   "night_premium_med": 0.855,
+   "open_move_pct": 2.016,
+   "prev_close": 120.04000091552734,
+   "open": 122.45999908447266,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "minute"
+  },
+  {
+   "sym": "SLV",
+   "night_premium_med": 0.845,
+   "open_move_pct": 0.538,
+   "prev_close": 52.060001373291016,
+   "open": 52.34000015258789,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "minute"
+  },
+  {
+   "sym": "SNDK",
+   "night_premium_med": -2.393,
+   "open_move_pct": -4.582,
+   "prev_close": 1610.3299560546875,
+   "open": 1536.5400390625,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "minute"
+  },
+  {
+   "sym": "SPCX",
+   "night_premium_med": -1.269,
+   "open_move_pct": -1.952,
+   "prev_close": 118.23999786376953,
+   "open": 115.93199920654297,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "both"
+  },
+  {
+   "sym": "TSLA",
+   "night_premium_med": 0.982,
+   "open_move_pct": 0.399,
+   "prev_close": 319.69000244140625,
+   "open": 320.9649963378906,
+   "snapshots": 18,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "both"
+  },
+  {
+   "sym": "USO",
+   "night_premium_med": -1.563,
+   "open_move_pct": -1.255,
+   "prev_close": 139.49000549316406,
+   "open": 137.74000549316406,
+   "snapshots": 6,
+   "verdict": "HIT",
+   "earnings": null,
+   "open_src": "minute"
+  }
+ ],
+ "call_summary": {
+  "total": 11,
+  "hit": 8,
+  "miss": 2,
+  "wrong_way": 1
+ },
+ "rel_summary": {
+  "total": 8,
+  "hit": 6,
+  "miss": 1,
+  "wrong_way": 1
+ },
+ "wallet_summary": {
+  "graded_trades": 4243,
+  "unique_wallets": 546
+ },
+ "note": "call_summary grades direction. rel_summary grades the same night market-neutral, which is the honest test. per-wallet grades and per-name residuals are not public. raw inputs are hash-sealed daily in seals/."
+}
