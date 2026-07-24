@@ -131,5 +131,16 @@
   "scope": "two crack rows on the /depth sheet only: GME 2026-07-22T23:50:04Z (from 272,496 to 172,178, -36.8%) and GME 2026-07-23T10:20:09Z (from 270,076 to 1,983, -99.3%, recovered in one cycle). the GME crack row of 2026-07-21T22:10:26Z, fired on a real ~$15k pool, is a genuine crack and stands. no graded call, no liquidity total and no other name is touched: these rows never entered /liquidity or the board, which refused the pool that produced them.",
   "note": "the crack ledger recorded two thinning events on a GME pool the rest of the desk was refusing all night as a decoy. that pool quoted GME far from its official close (the board and /liquidity both excluded it under the 35% print band), so a swing in its depth is not the depth behind GME thinning, it is a pool nobody should trade moving. the -99.3% to $1,983-and-instant-recovery row is the shape of a pool-switch artifact, not a real 99% drain. the crack detector now reads depth only from pools inside the same 35% band the board prints by, so a decoy can no longer fire a crack going forward; these two historical rows, fired before that gate, are annotated here rather than deleted, and they age off the 14-day sheet on their own. what a stranger should take from /depth cracks: read them against whether the name had an in-band pool that night.",
   "revised": "2026-07-24"
+ },
+ {
+  "from": "2026-07-22T20:40:26Z",
+  "to": "2026-07-24T04:48:49Z",
+  "syms": [
+   "PLTR",
+   "SPCX"
+  ],
+  "scope": "the PLTR and SPCX case files on the /docket surface only. no sealed night-premium call is touched: the season record (100 graded calls) and every scores/*.json stand as written, because the docket's dislocation files are a separate system from the graded night calls. this reverses, for these two files only, the decision recorded in the 2026-07-23 correction that kept them graded.",
+  "note": "these two files were graded HIT and MISS on the docket for overnight dislocations of -6.181% and -6.065%, and they were neither. both opened 40 minutes after the 07-22 bell against the 2026-07-21 close, after the 07-22 close had already rolled, so the gap each filed was the stock's own 07-22 regular-session decline measured against a ruler a day stale. against the close that actually defined that night, PLTR was -0.087% and SPCX +0.683%. the verdicts were matched from a later grading of a different night. this is the identical fault as the TSLA and GOOGL files withdrawn earlier today, and the same docket cannot withdraw one pair of it and grade the other, so PLTR and SPCX are now withdrawn with the reason on them. the fix that stops a file opening on a close the session has already answered (a night does not open until its defining close is on file, and a carried row that outlived its ruler states no gap) is deployed.",
+  "revised": "2026-07-24"
  }
 ]
