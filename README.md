@@ -23,6 +23,16 @@ A hash proves two things once the data is revealed:
 
 We cannot fabricate a good track record retroactively. Neither can anyone else.
 
+**`forecasts/`** — one file per morning since 2026-07-16: the calls themselves,
+committed before the opening bell (see `committed_at`). **The season's first
+three mornings, 2026-07-13 to 07-15 (36 graded calls), have no forecast file.**
+The desk only started committing the calls as their own artifact on 07-16; those
+first mornings are graded from the sealed night tape, and their seals prove the
+tape existed, not that a direction was committed pre-open. We are not backfilling
+them, because a pre-commitment written after the fact would be a fabricated
+receipt, and this drawer holds no fabricated receipts. Claims of "committed
+before the bell" therefore begin at 2026-07-16.
+
 **`scores/`** — one file per graded day: every call the nightwatch made overnight,
 and how the name actually opened. The misses stay up.
 
